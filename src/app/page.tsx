@@ -133,7 +133,7 @@ export default function Home() {
           </div>
         </div>
         <div className="ever text-center ">
-          <div className=" ml-40 mt-8 ">
+          <div className=" mt-8 ">
             <div className=" fut " >
             <div className='flex items-center justify-center p-5'>
             <Image
@@ -189,8 +189,9 @@ export default function Home() {
               <p>Monitor, analyze and optimize IoT devices and operations in real-time.</p>
               </div>
           </div>
-          <div className="">
-            <h1 className='ml-5 mt-20 mb-3 text-2xl font-semibold'>Popular IT Services Features</h1>
+          <div className="flex justify-start">
+          <div className="ml-24 mt-40 text-left">
+            <h1 className='mb-3 text-3xl font-semibold'>Popular IT Services Features</h1>
             <p className='ml-25'>From AI-drive chatbots to cloud-native application our services are designed to elevate your performance and provide a campetitive edge.</p>
             <a
           href=""
@@ -205,6 +206,7 @@ export default function Home() {
             </span>
           </h2>
         </a>
+          </div>
           </div>
       </div>
       <div className=" flex justify-between">
@@ -241,6 +243,44 @@ export default function Home() {
         </div>
       </div>
       <h1 className="mb-3 text-2xl font-semibold">What Other Say About Us</h1>
+      {/*  */}
+      <section className="text-black body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div className="h-full text-center">
+          <image
+           className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" />
+          <p className="leading-relaxed">A Senior Product Designer leads the design strategy and execution for digital products, ensuring user-centered, aesthetically pleasing, and functional designs that align with business goals and user needs.</p>
+          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 className="text-blue font-medium title-font tracking-wider text-sm">Raju Kumar</h2>
+          <p className="text-gray-500">Senior Product Designer</p>
+        </div>
+      </div>
+      <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div className="h-full text-center">
+          <image 
+          className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" />
+          <p className="leading-relaxed">A UI developer specializes in creating the user interface of web applications, focusing on layout, design, and interactivity to enhance user experience and ensure effective communication.</p>
+          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 className="text-blue font-medium title-font tracking-wider text-sm">Vishwajeet Kumar</h2>
+          <p className="text-gray-500">UI Develeoper</p>
+        </div>
+      </div>
+      <div className="lg:w-1/3 lg:mb-0 p-4">
+        <div className="h-full text-center">
+          <image
+           className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" />
+          <p className="leading-relaxed">
+                A Chief Technology Officer (CTO) is a high-level executive responsible for technology strategy, innovation, and managing the technical aspects of a company, ensuring alignment with business goals.</p>
+          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 className="text-blue font-medium title-font tracking-wider text-sm">Vishu kumar</h2>
+          <p className="text-gray-500">CTO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       {/* Contect Section */}
       <section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -263,7 +303,7 @@ export default function Home() {
         {/* <input type="text" id="name" name="name" value={name} onChange={handleNameChange} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">  */}
       </div>
       <div className="relative mb-4">
-       <label htmlFor="email" class="leading-7 text-sm text-black">Email</label>
+       <label htmlFor="email" className="leading-7 text-sm text-black">Email</label>
         {/* <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"> */}
       </div>
       <div className="relative mb-4">

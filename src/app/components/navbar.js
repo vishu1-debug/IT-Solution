@@ -22,8 +22,9 @@ const Navbar = () => {
         <a className="mr-5 hover:text-black">Services</a>
         <a className="mr-5 hover:text-black">Careers</a>
         <a className="mr-5 hover:text-black">Contant</a>
+        <a className="mr-5 hover:text-black ml-24">Login</a>
       </nav>
-      <a className="mr-5 hover:text-black ml-10">Login</a>
+      
       <button className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Let's talk
        
       </button>

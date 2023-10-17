@@ -18,13 +18,13 @@ const Footer = () => {
                  height={30} 
                 //  className="ml-25"
                />
-          <span className="ml-3 text-xl">FLYINGFEATHER IT</span>
+          <span className="ml-3 text-xl font-semibold">FLYINGFEATHER IT</span>
         </a>
         <p className="mt-2 text-sm text-white">Flyingfeatherit provides top-notch IT solutions that address your specific needs. Let's embark on a transformative journey together.</p>
       </div>
       <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">Services</h2>
+          <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">Services</h2>
           <nav className="list-none mb-10">
             <li>
               <a className="text-white hover:text-gray-800">Overview</a>
@@ -39,7 +39,7 @@ const Footer = () => {
           </nav>
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3"> Company</h2>
+          <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3"> Company</h2>
           <nav className="list-none mb-10">
             <li>
               <a className="text-white hover:text-gray-800">About-us</a>
@@ -54,7 +54,7 @@ const Footer = () => {
           </nav>
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">Resources</h2>
+          <h2 className="title-font font-semibold  text-white tracking-widest text-lg mb-3">Resources</h2>
           <nav className="list-none mb-10">
             <li>
               <a className="text-white hover:text-gray-800">Blogs</a>
@@ -88,7 +88,7 @@ const Footer = () => {
     </div>
     <div className="bg-gray-100">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p className="text-gray-500 text-sm text-center sm:text-left">© 2022 Flyingfeatherit Inc,Copyright and rights reserved
+        <p className="text-black text-sm text-center sm:text-left">© 2022 Flyingfeatherit Inc,Copyright and rights reserved
           <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@knyttneve</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
