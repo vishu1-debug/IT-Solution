@@ -243,7 +243,7 @@ export default function Home() {
         </div>
       </div>
       <h1 className="mb-3 text-2xl font-semibold">What Other Say About Us</h1>
-      {/*  */}
+      {/* TEAM */}
       <section className="text-black body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
@@ -253,7 +253,7 @@ export default function Home() {
            className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" />
           <p className="leading-relaxed">A Senior Product Designer leads the design strategy and execution for digital products, ensuring user-centered, aesthetically pleasing, and functional designs that align with business goals and user needs.</p>
           <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-          <h2 className="text-blue font-medium title-font tracking-wider text-sm">Raju Kumar</h2>
+          <h2 className="text-black font-medium title-font tracking-wider text-sm">Raju Kumar</h2>
           <p className="text-gray-500">Senior Product Designer</p>
         </div>
       </div>
@@ -281,6 +281,177 @@ export default function Home() {
     </div>
   </div>
 </section>
+{/* Ind */}
+<h1 className="mb-3 text-2xl font-semibold">Industry Expertise</h1>
+<div className='flex flex-wrap'>
+  <div className='md:mr-8 text-center'>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+    <Image
+      src="/img/edu.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     />
+     </div>
+     <div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>EDUCATION</h2>
+     </a>
+     </div>
+    </div>
+    <div className='h-48 w-48 border border-black-500 md:mt-8 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+       <Image
+      src="/img/cargo 1.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+     /></div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>LOGISTIC</h2>
+     </a>
+     </div>
+    <div className='h-48 w-48 border border-black-500 md:mt-8 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+      <Image
+      src="/img/fintech 1.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     />
+     </div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>FIN-TECH</h2>
+     </a>
+     </div>
+  </div>
+  <div className='text-center'>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+    <Image
+      src="/img/Rectangle.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      className="ml-25"
+     />
+     </div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>ECOMMERCE</h2>
+     </a>
+    </div>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+    <Image
+      src="/img/network 1.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     /></div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>SOCIL NETWORKING</h2>
+     </a>
+    </div>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+     <Image
+      src="/img/manufacturing 1.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     />
+     </div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>MANUFACTURING</h2>
+     </a>
+    </div>
+  </div>
+  <div className=' text-center'>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 md:ml-6 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+    <Image
+      src="/img/education.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     />
+     </div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+       <h2 className='mb-3 text-xs font-semibold mt-6'>HEALTHCARS</h2>
+       </a>
+    </div>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 md:ml-6 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+    <Image
+      src="/img/travel-and-tourism 1.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     />
+     </div>
+     <a  href=""
+          className="group rounded-lg transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>TAVEL</h2>
+     </a>
+    </div>
+    <div className='w-48 h-48 border border-black-500 md:mt-8 md:ml-6 rounded-lg p-5 bg-white-500 hover:bg-blue-500 text-black hover:text-white transition duration-300'>
+    <div className='flex items-center justify-center p-5'>
+    <Image
+      src="/img/gaming 1.png"
+      alt="Image"
+      width={30} 
+      height={20} 
+      // className="ml-25"
+     />
+     </div>
+     <a  href=""
+          className="group rounded-lg  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+     <h2 className='mb-3 text-xs font-semibold mt-6'>GAMING</h2>
+     </a>
+    </div>
+  </div>
+</div>
       {/* Contect Section */}
       <section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -310,8 +481,8 @@ export default function Home() {
         {/* <label for="message" class="leading-7 text-sm text-gray-600">Message</label> */}
         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
-      <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-      <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+      <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+      <p className="text-xs text-gray-500 mt-3"></p>
     </div>
   </div>
 </section>
