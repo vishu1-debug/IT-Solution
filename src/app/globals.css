@@ -69,3 +69,9 @@
   display: flex;
   justify-content: space-between;
 }
+/* Footer */
+.fbg{
+  width: 100vw;
+  height: auto;
+  background:url('/img/background2.png');
+}
