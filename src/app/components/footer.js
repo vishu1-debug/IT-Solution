@@ -14,8 +14,8 @@ const Footer = () => {
         <Image
                  src="/img/Circle-icon.png"
                  alt="Image"
-                 width={30} 
-                 height={30} 
+                 width={80} 
+                 height={80} 
                 //  className="ml-25"
                />
           <span className="ml-3 text-xl font-semibold">FLYINGFEATHER IT</span>
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3">Services</h2>
-          <nav className="list-none mb-10">
+          <nav className="list-none mb-10 text-base">
             <li>
               <a className="text-white hover:text-gray-800">Overview</a>
             </li>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-semibold text-white tracking-widest text-lg mb-3"> Company</h2>
-          <nav className="list-none mb-10">
+          <nav className="list-none mb-10 text-base">
             <li>
               <a className="text-white hover:text-gray-800">About-us</a>
             </li>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-semibold  text-white tracking-widest text-lg mb-3">Resources</h2>
-          <nav className="list-none mb-10">
+          <nav className="list-none mb-10 text-base">
             <li>
               <a className="text-white hover:text-gray-800">Blogs</a>
             </li>
@@ -67,23 +67,37 @@ const Footer = () => {
             </li>
           </nav>
         </div>
-        {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-          <nav className="list-none mb-10">
+        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">TRY It Today</h2>
+          <p>Send your thoughts to launch your dream project</p>
+          <a
+          href=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-base font-semibold`}>
+            START TODAY{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+        </a>
+          {/* <nav className="list-none mb-10">
             <li>
-              <a className="text-white hover:text-gray-800">First Link</a>
+              <a className="text-white hover:text-gray-800"></a>
             </li>
             <li>
-              <a className="text-white hover:text-gray-800">Second Link</a>
+              <a className="text-white hover:text-gray-800"></a>
             </li>
             <li>
-              <a className="text-white hover:text-gray-800">Third Link</a>
+              <a className="text-white hover:text-gray-800"></a>
             </li>
             <li>
-              <a className="text-white hover:text-gray-800">Fourth Link</a>
+              <a className="text-white hover:text-gray-800"></a>
             </li>
-          </nav>
-        </div> */}
+          </nav> */}
+        </div> 
       </div>
     </div>
     <div className="bg-gray-100">

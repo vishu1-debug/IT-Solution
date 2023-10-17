@@ -245,6 +245,7 @@ export default function Home() {
       <h1 className="mb-3 text-2xl font-semibold">What Other Say About Us</h1>
       {/* TEAM */}
       <section className="text-black body-font">
+        <h1 className="mb-3 text-2xl font-semibold text-center">Our Teams</h1>
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -451,7 +452,21 @@ export default function Home() {
      </a>
     </div>
   </div>
+ 
 </div>
+<a
+          href=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-base font-semibold`}>
+            LET'S DISCUSS YOUR PROJECT{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+        </a>
       {/* Contect Section */}
       <section className="text-gray-600 body-font relative">
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
