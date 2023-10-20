@@ -75,3 +75,17 @@
   height: auto;
   background:url('/img/background2.png');
 }
+.fb{
+  width: 50vw;
+  height: auto;
+  background:url('/img/Rectangle 118.png');
+  background-size: cover;
+  background-position: center;
+}
+.gro{
+  width: 50vw;
+  height: auto;
+  background:url('/img/Groupboy.png');
+  background-size: cover;
+  background-position: center;
+}

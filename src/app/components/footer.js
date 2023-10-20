@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 
 const Footer = () => {
@@ -14,9 +16,8 @@ const Footer = () => {
         <Image
                  src="/img/Circle-icon.png"
                  alt="Image"
-                 width={80} 
-                 height={80} 
-                //  className="ml-25"
+                 width={60} 
+                 height={50} 
                />
           <span className="ml-3 text-xl font-semibold">FLYINGFEATHER IT</span>
         </a>
@@ -72,7 +73,7 @@ const Footer = () => {
           <p>Send your thoughts to launch your dream project</p>
           <a
           href=""
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -83,20 +84,6 @@ const Footer = () => {
             </span>
           </h2>
         </a>
-          {/* <nav className="list-none mb-10">
-            <li>
-              <a className="text-white hover:text-gray-800"></a>
-            </li>
-            <li>
-              <a className="text-white hover:text-gray-800"></a>
-            </li>
-            <li>
-              <a className="text-white hover:text-gray-800"></a>
-            </li>
-            <li>
-              <a className="text-white hover:text-gray-800"></a>
-            </li>
-          </nav> */}
         </div> 
       </div>
     </div>
@@ -130,6 +117,8 @@ const Footer = () => {
           </a>
         </span>
       </div>
+    </div>
+    <div>
     </div>
   </footer></div>
   )
